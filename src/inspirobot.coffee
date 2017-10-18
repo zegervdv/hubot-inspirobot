@@ -7,14 +7,15 @@
 # Author:
 #  Zeger Van de Vannet
 
-
+superagent = require 'superagent'
 
 module.exports = (robot) ->
-  robot.respond /inspire me/i, (res) ->
+  robot.respond /inspire me/i, (response) ->
     robot.http('http://inspirobot.me/api?generate=true')
       .get() (err, res, body) ->
         if err
-          res.reply "Something went wrong, hang in there..."
-        res.repy body
+          response.reply "Something went wrong, hang in there..."
+          return 0
+        response.reply body
 
 # vim:sw=2:et:ts=2:fdm=marker

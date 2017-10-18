@@ -4,7 +4,7 @@
   "description": "Inspirational quotes for hubot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers coffee:coffee-script/register --reporter spec test"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/zegervdv/hubot-inspirobot/issues"
   },
-  "homepage": "https://github.com/zegervdv/hubot-inspirobot#readme"
+  "homepage": "https://github.com/zegervdv/hubot-inspirobot#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "co": "^4.6.0",
+    "hubot-pretend": "^1.2.0",
+    "mocha": "^4.0.1",
+    "nock": "^9.0.22"
+  }
 }
