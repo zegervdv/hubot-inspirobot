@@ -1,0 +1,23 @@
+{
+  "name": "hubot-inspirobot",
+  "version": "1.0.0",
+  "description": "Inspirational quotes for hubot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zegervdv/hubot-inspirobot.git"
+  },
+  "keywords": [
+    "hubot",
+    "inspirobot"
+  ],
+  "author": "Zeger Van de Vannet <zegervdv@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zegervdv/hubot-inspirobot/issues"
+  },
+  "homepage": "https://github.com/zegervdv/hubot-inspirobot#readme"
+}
