@@ -1,6 +1,6 @@
 {
   "name": "hubot-inspirobot",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Inspirational quotes for hubot",
   "main": "index.js",
   "scripts": {
