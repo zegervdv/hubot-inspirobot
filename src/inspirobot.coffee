@@ -16,6 +16,6 @@ module.exports = (robot) ->
         if err
           response.reply "Something went wrong, hang in there..."
           return 0
-        response.reply body
+        response.reply "![inspirobot](#{body})"
 
 # vim:sw=2:et:ts=2:fdm=marker
